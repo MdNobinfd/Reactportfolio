@@ -1,0 +1,113 @@
+#portfolio{
+    margin-top: 100px;
+}
+.portfolio_heading .heading span {
+    text-align: center;
+}
+.portfolio_heading .heading h2 {
+    text-align: center;
+}
+.portfolio_itme{
+    margin:50px 15px 0px 15px;
+    text-align: left;
+    padding: 30px;
+    border-radius: 20px;
+    background:linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    z-index: 1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.portfolio_itme .portfolio_item_img img{
+    width: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.portfolio_item_img{
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.portfolio_itme:hover{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.portfolio_itme:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0.5s;
+}
+.portfolio_item_meddle{
+    padding-top: 18px;
+}
+.portfolio_meddle_title p{
+    color:#ff014f;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+} 
+.portfolio_meddle_rating p{
+    color:#c4cfde;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+} 
+.portfolio_itme h3{
+    transition: 0.5s;
+    color:#c4cfde;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+.portfolio_itme h3:hover{
+    color: #ff014f;
+}
+.portfolio_itme h3 span{
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-size: 0px;
+    position: absolute;
+}
+.portfolio_itme h3:hover span{
+    opacity: 1;
+    font-size: 23px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+
+/* font-family: "Poppins", sans-serif; */

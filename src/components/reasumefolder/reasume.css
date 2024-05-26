@@ -1,0 +1,165 @@
+#reasume{
+    padding-top: 100px;
+}
+.reasume_heading{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.resume_main_tabs .nav-tabs{
+    border: none;
+    border-radius: 10px;
+    background:linear-gradient(145deg, #1e2024, #23272b);;
+    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+}
+.resume_main_tabs .nav-tabs .nav-link{
+    border: none;
+    color: #c4cfde;
+    padding: 20px 0px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.resume_main_tabs .nav-link.active{
+    color: #ff014f !important;
+    background-color: transparent !important;
+    border-color: transparent;
+    border: 0 none;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+.resume_main_tabs .nav-link:hover{
+    color: #ff014f !important;
+    background-color: transparent !important;
+    border-color: transparent;
+    border: 0 none;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.resume_tabs_heading{
+    margin: 40px 0px;
+}
+.resume_tabs_heading .heading h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 62px;
+    margin:  0px;
+}
+.resume_tabs_heading .heading span{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin:  0px;
+}
+.resume_tabs_item{
+    padding-left: 31px;
+    border-left: 5px solid #17191c;
+}
+.resume_tabs_item .resume_tabs_card{
+    position: relative;
+    margin-top: 50px;
+    z-index: 2;
+    padding: 45px 40px;
+    border-radius: 6px;
+    background:linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+.resume_tabs_item .resume_tabs_card:hover::after{
+    background-color: #ff014f;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.resume_tabs_item .resume_tabs_card::before{
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 5px;
+    right: 100%;
+    top: 63px;
+    transform: translateY(-7px);
+    background: #1b1c1d;
+    z-index: 0;
+}
+.resume_tabs_item .resume_tabs_card::after{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 5px solid #17191c;
+    border-radius: 100%;
+    right: 104%;
+    top: 55px;
+    transform: translateY(-7px);
+    background-color: #262a2e;
+}
+.resume_tabs_item .resume_tabs_card:hover{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.resume_tabs_card .resume_card_main_head{
+    border-bottom: 1px solid #1a1d23;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.resume_card_main_head .card_left_head h4{
+    color:#c4cfde;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 39px;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+.resume_card_main_head .card_left_head p{
+    font-family: "Poppins", sans-serif;
+    color:#c4cfde;
+    font-size: 14px;
+}
+.resume_card_main_head .card_right_head{
+    color:#ff014f;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 36px;
+    border-radius: 6px;
+    background:linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    transition:0.5s;
+    font-weight: 500;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+    cursor: pointer;
+}
+.resume_tabs_item .resume_tabs_card:hover .card_right_head{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+.resume_tabs_card .resume_description p{
+    font-family: "Poppins", sans-serif;
+    color:#c4cfde;
+    font-size: 14px;
+    line-height: 28px;
+}
+/* font-family: "Poppins", sans-serif; */
