@@ -84,7 +84,40 @@
     background: #191b1e;
     color: white;
 }
-
+.offcanvas-body .btn-primary{
+    border-radius: 6px !important;
+    background: linear-gradient(145deg, #1e2024, #23272b) !important;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e !important;
+    transition:0.5s !important;
+    position: relative !important;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0 none;
+    color: #ff014f !important;
+    padding: 12px 30px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s;
+    -webkit-transition:0.5s !important;
+    -moz-transition:0.5s !important;
+    -ms-transition:0.5s !important;
+    -o-transition:0.5s !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+}
+.offceanver_tile p{
+    margin-bottom: 0px !important;
+    font-size: 16px;
+}
+.offcanvas-header{
+    padding-bottom: 0px !important;
+}
+.offcanvas-body{
+    padding-top: 0px !important;
+    text-align: center;
+}
 @media (max-width:575px){
     .offcanvas-header .btn-close{
         height: 17px !important;
