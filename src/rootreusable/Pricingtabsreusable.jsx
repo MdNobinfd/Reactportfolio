@@ -7,7 +7,7 @@ const Pricingtabsreusable = (props) => {
   return (
     <>
     <div className="pricing_sheet">
-    <div className="pricing_sheet_heading d-flex justify-content-between align-items-center">
+    <div className="pricing_sheet_heading  justify-content-between align-items-center">
         <div className="pricing_head_left">
             <h3>Make Your Single Page</h3>
             <span>Elementor</span>
@@ -19,7 +19,7 @@ const Pricingtabsreusable = (props) => {
     <div className="pricing_sheet_discription">
     <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
     </div>
-    <div className="pricing_sheet_meddle d-flex justify-content-between">
+    <div className="pricing_sheet_meddle justify-content-between">
         <div className="pricing_sheet_meddle_left">
             <ul>
                 <li> <span><FaCheck /></span> 1 Page with Elementor</li>

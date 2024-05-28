@@ -209,11 +209,43 @@
 /* -----------slider button style---------------- */
 
 
+/* Resposive style start */
+@media (max-width:575px){
+}
+@media (max-width:775px){
+    .testimonial{
+        text-align: center;
+    }
+    .testimonial h2{
+        margin: 0;
+        font-size: 34px;
+    }
+    .prev,.next{
+        display:none;
+    }
+    .testimonial_slider .testimonial_slider_right::after {
+        display: none;
+    }
+    .testimonial_slider .testimonial_slider_right{
+        margin-top: 30px;
+    }
+    #testimonal .slick-dots li{
+        margin: 0px 10px;
+    }
+}
+@media  (min-width:351px) and (max-width:575px){
 
+}
+@media (min-width:575px) and (max-width:775px){
 
+}
+@media (min-width:776px) and (max-width:991px){
 
+}
+@media (min-width:991px) and (max-width:1199px){
 
+}
+@media (min-width:1200px) and (max-width:1399px){
 
-
-/* font-family: "Montserrat", sans-serif; */
-/* font-family: "Poppins", sans-serif; */
+}
+/* Resposive style end */

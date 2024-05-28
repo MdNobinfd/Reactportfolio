@@ -7,6 +7,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import logo from '../../assets/logo.png'
 import ScrollspyNav from "react-scrollspy-nav";
+import offcanva from '../../assets/offcenva.png'
+
 
 // 212529
 
@@ -17,7 +19,7 @@ const Menu = () => {
         <Navbar key={expand} expand={expand} className="navber_main mb-3">
           <Container fluid>
             <Navbar.Brand href="#"><img src={logo} alt="" /></Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle  aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -25,7 +27,11 @@ const Menu = () => {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  <div className="offceanver_tile">
+                    <img src={offcanva} alt="" />
+                <p>Inbio is a personal portfolio template. You can customize all.</p>
+                  </div>
+                
                 </Offcanvas.Title>
               </Offcanvas.Header>
                   <ScrollspyNav

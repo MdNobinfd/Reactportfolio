@@ -4,7 +4,7 @@ import { Col} from 'react-bootstrap'
 const Awesometabsreusable = (props) => {
   return (
     <>
-     <Col lg={4}>
+     <Col lg={4} sm={6}>
             <div className="awesome_right_item text-center">
                 <div className="awesome_right_item_image">
                         <img src={props.awesomeimage} alt="" />

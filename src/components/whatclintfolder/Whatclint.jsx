@@ -41,9 +41,9 @@ const Whatclint = () => {
   return (
     <>
     <section id='testimonal'>
-      <div className="for_animation" data-aos="zoom-in-up">
+      <div className="for_animation">
          <Container>
-            <Row className='djf text-center justify-content-center'>
+            <Row className='testimonial text-center justify-content-center'>
                 <Col lg={5}>
                     <Headingreuseable headsub="WHAT CLIENTS SAY"
                   headtitle="Testimonial"/>

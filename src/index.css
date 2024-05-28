@@ -31,13 +31,10 @@ ul{
 body{
     background-color: #222529 !important;
     color: white !important;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 /* common css end */
 @media (max-width:767px){
-    .notification{
-        display: none !important;
-    }
     body{
         overflow-x: hidden !important;
     }

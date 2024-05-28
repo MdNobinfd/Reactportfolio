@@ -110,4 +110,31 @@
 
 
 
-/* font-family: "Poppins", sans-serif; */
+/* Resposive style start */
+@media (max-width:575px){
+}
+@media (max-width:775px){
+    .portfolio_heading{
+        text-align: center;
+    }
+    .portfolio_heading h2{
+        margin: 0;
+        font-size: 34px;
+    }
+}
+@media  (min-width:351px) and (max-width:575px){
+
+}
+@media (min-width:575px) and (max-width:775px){
+
+}
+@media (min-width:776px) and (max-width:991px){
+
+}
+@media (min-width:991px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}
+/* Resposive style end */

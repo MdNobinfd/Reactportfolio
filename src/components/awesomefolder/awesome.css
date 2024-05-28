@@ -112,3 +112,38 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
 }
+
+/* Resposive style start */
+@media (max-width:575px){
+}
+@media (max-width:775px){
+    .awesome_headin{
+        text-align: center;
+    }
+    .awesome_headin h2{
+        margin: 0;
+        font-size: 34px;
+    }
+    .awesome_tabs .awesome_tabs_left .nav-link{
+        padding:15px 0px;
+        margin: 0px 0px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+@media  (min-width:351px) and (max-width:575px){
+
+}
+@media (min-width:575px) and (max-width:775px){
+
+}
+@media (min-width:776px) and (max-width:991px){
+
+}
+@media (min-width:991px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}
+/* Resposive style end */

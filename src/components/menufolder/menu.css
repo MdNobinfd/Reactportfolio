@@ -57,16 +57,76 @@
     font-weight: 700 !important;
     position: relative;
 }
-/* .is-active::after{
-    position: absolute;
-    content: '';
-    bottom: 0px;
-    left: 0px;
-    height: 2px;
-    width: 100%;
-    background-color: red;
-} */
+
 .nav-link:hover{
     color: #ff014f !important;
+}
+.offceanver_tile p{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.offcanvas-header .btn-close{
+    margin-bottom: 84px !important;
+    margin-right: 10px;
+    background-color: red;
+    height: 28px;
+    width: 48px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    opacity: 1;
+}
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    transition: 0.5s;
+    background: #191b1e;
+    color: white;
+}
+
+@media (max-width:575px){
+    .offcanvas-header .btn-close{
+        height: 17px !important;
+        width: 29px !important;
+    }
+    .offcanvas.show:not(.hiding), .offcanvas.showing {
+        width: 100%;
+    }
+}
+@media (max-width:767px){
+    body{
+        overflow-x: hidden !important;
+    }
+    .navbar-toggler{
+        background-color: white !important;
+    }
+
+    .offcanvas-header .btn-close{
+        height: 28px;
+        width: 28px;
+ 
+    }
+}
+@media (min-width:776px) and (max-width:991px){
+    body{
+        overflow-x: hidden !important;
+    }
+    .navbar-toggler{
+        background-color: white !important;
+    }
+}
+@media (min-width:991px) and (max-width:1199px){
+    body{
+        overflow-x: hidden !important;
+    }
+    .navbar-toggler{
+        background-color: white !important;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    body{
+        overflow-x: hidden !important;
+    }
 }
 

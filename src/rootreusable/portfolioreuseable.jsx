@@ -6,7 +6,7 @@ import { FaRegHeart } from "react-icons/fa";
 const portfolioreuseable = (props) => {
   return (
     <>
-      <Col lg={4}>
+      <Col lg={4} md={6}>
         <div className="portfolio_itme">
           <div className="portfolio_item_img">
             <img src={props.portfolioimg} alt="" />

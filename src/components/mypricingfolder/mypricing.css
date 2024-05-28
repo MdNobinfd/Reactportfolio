@@ -16,7 +16,9 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     position: relative;
-
+}
+.pricing_sheet_heading{
+    display: flex;
 }
 .pricing_tabps::after{
     content: "";
@@ -91,6 +93,9 @@
 .pricing_sheet .pricing_sheet_heading .pricing_head_left span{
     color: #7c838e;
     font-family: "Montserrat", sans-serif;
+}
+.pricing_sheet_meddle{
+    display: flex;
 }
 .pricing_sheet .pricing_sheet_heading .pricing_head_right span{
     color: #f9004d;
@@ -170,16 +175,43 @@
 
 
 
-/* font-family: "Poppins", sans-serif; */
-/* font-family: "Montserrat", sans-serif; */
-@media (max-width:767px){
-    .notification{
+/* Resposive style start */
+@media (max-width:575px){
+}
+@media (max-width:775px){
+    .pricing_main_main{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .pricing_main_main h2{
+        margin: 0;
+        font-size: 34px;
+    }
+    .notification,.pricing_tabps::after{
+        display: none !important;
+    }
+    .pricing_sheet_meddle {
+        display: block !important;
+    }
+    .pricing_sheet_heading{
+        display: block;
+    }
+}
+@media  (min-width:351px) and (max-width:575px){
+
+}
+@media (min-width:575px) and (max-width:775px){
+
+}
+@media (min-width:776px) and (max-width:991px){
+    .notification,.pricing_tabps::after{
         display: none !important;
     }
 }
-@media (min-width:992px) and (max-width:1199px){
+@media (min-width:991px) and (max-width:1199px){
 
 }
 @media (min-width:1200px) and (max-width:1399px){
 
 }
+/* Resposive style end */

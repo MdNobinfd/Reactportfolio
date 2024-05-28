@@ -101,3 +101,38 @@
     background: #121415;
     margin-top: 100px;
 }
+/* banner resposive section start */
+@media (max-width:350px){
+    .banner_right_top h1{
+        font-size: 26px !important;
+        line-height: 40px !important;
+    }
+}
+@media (max-width:775px){
+    .banner_right_top{
+        margin-bottom: 30px;
+    }
+}
+@media  (min-width:351px) and (max-width:575px){
+    .banner_right_top h1{
+        font-size: 32px !important;
+        line-height: 40px !important;
+
+    }
+}
+@media (min-width:575px) and (max-width:775px){
+    .banner_right_top h1{
+        font-size: 40px !important;
+        line-height: 60px !important;
+    }
+}
+@media (min-width:776px) and (max-width:991px){
+
+}
+@media (min-width:991px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}
+/* banner resposive section end */

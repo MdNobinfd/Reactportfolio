@@ -19,34 +19,37 @@ const Features = () => {
     <>
     <section id='features'>
         <Container>
-        <Headingreuseable headsub='FEATURES' headtitle='What I Do' />
+          <div className="freatue_heaing">
+            <Headingreuseable headsub='FEATURES' headtitle='What I Do' />
+          </div>
+        
             <Row>
-              <Col lg={4}><div className="for_amination" data-aos="fade-up-right">
+              <Col lg={4} md={6}><div className="for_amination" >
               <Featurereusable boxicon={<RxTextAlignJustify />} boxcontanth3='Business Stratagy' boxcontantp='I throw myself down among the tall grass by the stream as I lie
                 close to the earth.'/>
               </div>
               </Col>
-              <Col lg={4}><div className="for_amination" data-aos="fade-up-right">
+              <Col lg={4} md={6}><div className="for_amination" >
               <Featurereusable boxicon={<FiBookOpen />} boxcontanth3='Web Design' boxcontantp='I throw myself down among the tall grass by the stream as I lie
                 close to the earth.' />
               </div>
               </Col>
-              <Col lg={4}><div className="for_amination">
+              <Col lg={4} md={6}><div className="for_amination">
               <Featurereusable boxicon={<PiTelevisionSimpleLight />} boxcontanth3='App development' boxcontantp='I throw myself down among the tall grass by the stream as I lie
                 close to the earth.' />
               </div>
               </Col>
-              <Col lg={4}><div className="for_amination">
+              <Col lg={4} md={6}><div className="for_amination">
               <Featurereusable boxicon={<PiTwitchLogo />} boxcontanth3='Mobile App' boxcontantp='I throw myself down among the tall grass by the stream as I lie
                 close to the earth.' />
               </div>
               </Col>
-              <Col lg={4}><div className="for_amination">
+              <Col lg={4} md={6}><div className="for_amination">
               <Featurereusable boxicon={<CiWifiOn />} boxcontanth3='CEO Marketing' boxcontantp='I throw myself down among the tall grass by the stream as I lie
                 close to the earth.' />
               </div>
               </Col>
-              <Col lg={4}><div className="for_amination">
+              <Col lg={4} md={6}><div className="for_amination">
               <Featurereusable boxicon={<LuSlack />} boxcontanth3='Personal Protfolio April' boxcontantp='I throw myself down among the tall grass by the stream as I lie
                 close to the earth.' />
               </div>
