@@ -14,7 +14,7 @@ import {Lines} from 'react-preloaders';
 const Banner = () => {
   return (
     <>
-      <Lines color={'#ffffff'}  background=" #222529"  />
+      <Lines color={'#ffffff'}  background=" #222529" time={3000} />
 
       <section id="banner">
         <Container>
