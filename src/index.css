@@ -13,6 +13,8 @@
     margin: 0;
     box-sizing: border-box;
     outline: none;
+    scrollbar-width: thin;
+    scrollbar-color:#ff014f #4e4f50  !important;
 }
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;

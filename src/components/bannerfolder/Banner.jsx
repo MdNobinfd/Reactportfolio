@@ -9,10 +9,13 @@ import { FiLinkedin } from "react-icons/fi";
 import bannericon1 from "../../assets/bannericon1.png";
 import bannericon2 from "../../assets/bannericon2.png";
 import bannericon3 from "../../assets/bannericon3.png";
+import {Lines} from 'react-preloaders';
 
 const Banner = () => {
   return (
     <>
+      <Lines color={'#ffffff'}  background=" #222529"  />
+
       <section id="banner">
         <Container>
           <Row className="align-items-center">
