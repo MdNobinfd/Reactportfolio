@@ -1,5 +1,5 @@
 #banner{
-    padding:100px 0px 0px 0px;
+    padding:150px 0px 0px 0px;
 }
 .banner_left img{
     width: 100%;
@@ -11,14 +11,15 @@
 .banner_left::after{
     position: absolute;
     content: '';
-    left: 0;
-    bottom: 0;
+    left:0px;
+    bottom: 0px;
     height: calc(100% - 130px);
     width: 100%;
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     z-index: -1;
     background:linear-gradient(145deg, #1e2024, #23272b);
 }
+
 .banner_right_top{
     margin-bottom: 110px;
 }

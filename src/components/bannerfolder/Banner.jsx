@@ -1,7 +1,7 @@
 import React from "react";
 import "./banner.css";
 import { Col, Container, Row } from "react-bootstrap";
-import bannerleft from "../../assets/banner-01.png";
+import bannerleft from "../../assets/myimg-removebg-preview.png";
 import { ReactTyped } from "react-typed";
 import { LuFacebook } from "react-icons/lu";
 import { CiInstagram } from "react-icons/ci";
@@ -84,7 +84,7 @@ const Banner = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={{ span: 4, offset: 1 }}>
+            <Col lg={{ span: 5, offset: 1 }}>
               <div className="banner_left">
                 <img src={bannerleft} alt="" />
               </div>

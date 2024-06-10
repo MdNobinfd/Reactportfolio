@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import logo from '../../assets/logo.png'
+import logo from '../../assets/myimg.jpg'
 import ScrollspyNav from "react-scrollspy-nav";
 import offcanva from '../../assets/offcenva.png'
 
@@ -18,7 +18,7 @@ const Menu = () => {
      {['xl'].map((expand) => (
         <Navbar key={expand} expand={expand} className="navber_main mb-3">
           <Container fluid>
-            <Navbar.Brand href="#"><img src={logo} alt="" /></Navbar.Brand>
+            <Navbar.Brand href="#" className='logo'><img src={logo} alt="" /> <span>N O B I N</span> </Navbar.Brand>
             <Navbar.Toggle  aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
