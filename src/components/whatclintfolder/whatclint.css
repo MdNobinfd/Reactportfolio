@@ -144,6 +144,7 @@
     text-align: center;
     border-radius: 6px;
     line-height: 50px;
+    cursor: pointer;
 }
 .next:hover{
     background: linear-gradient(to right bottom, #212428, #16181c);
@@ -163,6 +164,7 @@
     text-align: center;
     border-radius: 6px;
     line-height: 50px;
+    cursor: pointer;
 }
 .prev:hover{
     background: linear-gradient(to right bottom, #212428, #16181c);

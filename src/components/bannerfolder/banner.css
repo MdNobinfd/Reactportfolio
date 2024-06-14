@@ -105,7 +105,7 @@
 /* banner resposive section start */
 @media (max-width:350px){
     .banner_right_top h1{
-        font-size: 26px !important;
+        font-size: 18px !important;
         line-height: 40px !important;
     }
 }
@@ -113,12 +113,25 @@
     .banner_right_top{
         margin-bottom: 30px;
     }
+    .banner_bottom_icon{
+        text-align: center;
+    }
+
 }
 @media  (min-width:351px) and (max-width:575px){
     .banner_right_top h1{
-        font-size: 32px !important;
+        font-size: 26px !important;
         line-height: 40px !important;
 
+    }
+    .banner_bottom_icon P{
+        margin-bottom: 0px;
+    }
+    .banner_icon{
+        display: flex;
+        justify-content:space-evenly;
+        margin-bottom: 20px;
+        
     }
 }
 @media (min-width:575px) and (max-width:775px){
@@ -131,7 +144,18 @@
 
 }
 @media (min-width:991px) and (max-width:1199px){
-
+    .banner_right_top h1{
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    .banner_icon a{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner_right_top{
+        margin-bottom: 20px;
+    }
 }
 @media (min-width:1200px) and (max-width:1399px){
 
